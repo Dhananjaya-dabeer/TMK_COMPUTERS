@@ -1,6 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.last-line-center {
+  text-align: justify;
+  text-align-last: center;
+}
+
+/* Optional compatibility fix */
+
 /*
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
